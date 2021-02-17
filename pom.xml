@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>townsq</groupId>
 	<artifactId>challenge-ninja</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>Challenge Ninja</name>
 	<description>Challenge Ninja - TownSq</description>
 	<properties>
