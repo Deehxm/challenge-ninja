@@ -1,1 +1,1 @@
-web: java -jar target/challenge-ninja-0.0.1.jar
+web: java $JAVA_OPTS -jar target/challenge-ninja-0.0.1.jar --port $PORT target/*.war
