@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/*.jar
+web: java -jar target/challenge-ninja-0.0.1.jar 
