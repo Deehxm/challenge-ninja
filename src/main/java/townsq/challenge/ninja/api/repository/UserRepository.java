@@ -8,10 +8,10 @@ import java.util.List;
 
 public interface UserRepository extends CrudRepository<UserModel, String> {
 
-    @Query("select u from user u where u.data like 'Usuario;%'")
+    @Query("select u from userChallenge u where u.data like 'Usuario;%'")
     List<UserModel> findAllUsers();
 
-    @Query("select u from user u where u.data like 'Grupo;%'")
+    @Query("select u from userChallenge u where u.data like 'Grupo;%'")
     List<UserModel> findAllGroups();
 
 }

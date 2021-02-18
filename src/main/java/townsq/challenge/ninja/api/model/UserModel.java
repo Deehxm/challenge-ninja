@@ -2,7 +2,7 @@ package townsq.challenge.ninja.api.model;
 
 import javax.persistence.*;
 
-@Entity(name = "user")
+@Entity(name = "userChallenge")
 public class UserModel {
 
     @Id
